@@ -7,8 +7,9 @@
 A tiny typo on a medical device label can become a recall. LabelGuard is our idea for catching those mistakes before they ever leave the building, and for taking the boring, repetitive parts of labeling off people's plates.
 
 ---
-
 ## The team
+
+**Team Invictus**
 
 | | |
 |---|---|
@@ -16,7 +17,8 @@ A tiny typo on a medical device label can become a recall. LabelGuard is our ide
 | **Ankita Kumari** | Team member |
 | **Aashwi Sadaria** | Team member |
 
-**Institute:** IIT Goa
+
+**Institute:** Indian Institute of Technology Goa
 
 ---
 
@@ -43,9 +45,19 @@ Our guiding idea is simple: **AI suggests, rules decide, humans approve.**
 
 ```
 .
-├── README.md        You are here
-└── frontend/        A clickable demo of the full flow (React + Vite)
+├── src/
+│   ├── pages/         Dashboard, Impact, Validate and Approve screens
+│   ├── App.jsx        Layout and navigation
+│   ├── data.js        Sample data for the demo
+│   ├── main.jsx
+│   └── styles.css
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md          
 ```
+
+This is a clickable demo of the full flow, built with React and Vite. The backend, rule catalogue and checker scripts will be added as we build them out.
 
 The backend, rule catalogue and checker scripts will be added as we build them out.
 
@@ -70,17 +82,4 @@ A quick tour:
 
 This is a prototype built to show the idea clearly. The demo runs on **sample data**, and the findings you see are scripted examples rather than live AI output. The company, product and UDI values are made up. Real regulatory details should always be checked against the official sources (EU MDR, FDA 21 CFR 801 and 830, ISO 15223-1, ISO 20417) before anything like this is used for real labels.
 
-## Where we want to take it
 
-- **Phase 1:** check-only mode that reviews existing labels and flags problems
-- **Phase 2:** impact analysis and approved-text drafting
-- **Phase 3:** several AI helpers working together, with a person approving at every important gate
-
-## Links
-
-- Demo video: *coming soon*
-- One-slide submission: *see submission form*
-
----
-
-Built with care by Team LabelGuard, IIT Goa.
