@@ -7,9 +7,9 @@
 A tiny typo on a medical device label can become a recall. LabelGuard is our idea for catching those mistakes before they ever leave the building, and for taking the boring, repetitive parts of labeling off people's plates.
 
 ---
-## The team
+## The Team
 
-**Team Invictus**
+**Team Name : Invictus**
 
 | | |
 |---|---|
